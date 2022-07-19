@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>ECサイト</title>
+<link href="/css/style.css" th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body>
+<header>
+	<h1>My EC Site</h1>
+	<div>
+		<form name="loginForm" id="loginForm" method="post" action="#">
+			User name:<input type="text" name="userName" />
+			Password:<input type="password" name="password" />
+			<button type="submit">Login</button>
+		</form>
+		<br />
+		<span id="welcome"> -- ようこそ！　ゲストさん</span>
+		<input type="hidden" id="hiddenUserId" value="0" />
+	</div>
+
+</header>
+
+</body>
+</html>
