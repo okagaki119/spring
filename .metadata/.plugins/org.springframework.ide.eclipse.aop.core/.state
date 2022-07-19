@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<aop-reference-model>
-<aop-project name="demo-1"/>
-<aop-project name="demo-2"/>
-<aop-project name="study"/>
-<aop-project name="demo"/>
-<aop-project name="easylogin"/>
-</aop-reference-model>

@@ -1,5 +1,0 @@
-package jp.co.internous.ecsite.model.dto;
-
-public class LoginDto {
-
-}
